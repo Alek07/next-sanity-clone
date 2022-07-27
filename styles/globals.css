@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .comment_form_label {
+    @apply block mb-5;
+  }
+
+  .comment_form_input {
+    @apply shadow border rounded py-2 px-3 mt-1 block w-full ring-yellow-500 outline-none focus:ring;
+  }
+}
